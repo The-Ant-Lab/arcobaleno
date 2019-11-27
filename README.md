@@ -1,4 +1,5 @@
-# Arcobaleno - a micropython development board made with The Ant.
+# Arcobaleno 
+# A micropython development board made with The Ant.
 
 This is our first complete project made with The Ant CNC machine.
 It is a development board designed by us and intended to be used with micropython.
