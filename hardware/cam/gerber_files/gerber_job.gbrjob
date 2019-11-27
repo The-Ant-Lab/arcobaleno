@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-11-26T21:31:04Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "pyboardlite"
+        },
+        "Owner": "Mattia Monetti <mmattia20@hotmail.com>",
+        "Size": {
+            "X": 47.6125,
+            "Y": 47.615
+        }
+    }
+}
