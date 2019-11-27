@@ -3,7 +3,7 @@
 This is our first complete project made with The Ant CNC machine.  
 It is a development board designed by us and intended to be used with micropython.  
 
-In this repository and in this video(link will go here), you will find all the related information.  
+In this repository and in this video [The Ant + Micropython = ARCOBALENO](https://youtu.be/vV_R-Mp-2kI), you will find all the related information.  
 
 If you want to realize the board with The Ant see the hardware folder.  
 If you have already built the board and you want to use it see the firmware folder.  
