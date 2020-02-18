@@ -68,7 +68,8 @@ build-ARCOBALENO/softtimer.o: softtimer.c \
  /usr/include/newlib/assert.h ../../py/obj.h ../../py/qstr.h \
  build-ARCOBALENO/genhdr/qstrdefs.generated.h ../../py/mpprint.h \
  ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h \
- ../../py/objtuple.h ../../py/pystack.h irq.h softtimer.h
+ ../../py/objtuple.h ../../py/pystack.h irq.h softtimer.h \
+ ../../py/pairheap.h
 softtimer.c :
  /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h :
  /usr/include/newlib/stdint.h :
@@ -140,3 +141,4 @@ softtimer.c :
  build-ARCOBALENO/genhdr/qstrdefs.generated.h ../../py/mpprint.h :
  ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h :
  ../../py/objtuple.h ../../py/pystack.h irq.h softtimer.h :
+ ../../py/pairheap.h :

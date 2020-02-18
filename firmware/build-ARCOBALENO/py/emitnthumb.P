@@ -81,7 +81,9 @@ build-ARCOBALENO/py/emitnthumb.o: ../../py/emitnthumb.c \
  ../../py/mpstate.h ../../py/mpthread.h ../../py/nlr.h \
  /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h \
  ../../py/objlist.h ../../py/objexcept.h ../../py/objtuple.h \
- ../../py/pystack.h ../../py/objfun.h ../../py/objstr.h
+ ../../py/pystack.h ../../py/objfun.h ../../py/nativeglue.h \
+ ../../py/persistentcode.h ../../py/stream.h ../../py/mperrno.h \
+ ../../py/objstr.h
 ../../py/emitnthumb.c :
  ../../py/mpconfig.h mpconfigport.h boards/ARCOBALENO/mpconfigboard.h :
  mpconfigboard_common.h :
@@ -165,4 +167,6 @@ build-ARCOBALENO/py/emitnthumb.o: ../../py/emitnthumb.c \
  ../../py/mpstate.h ../../py/mpthread.h ../../py/nlr.h :
  /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h :
  ../../py/objlist.h ../../py/objexcept.h ../../py/objtuple.h :
- ../../py/pystack.h ../../py/objfun.h ../../py/objstr.h :
+ ../../py/pystack.h ../../py/objfun.h ../../py/nativeglue.h :
+ ../../py/persistentcode.h ../../py/stream.h ../../py/mperrno.h :
+ ../../py/objstr.h :

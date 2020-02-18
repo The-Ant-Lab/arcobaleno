@@ -61,7 +61,17 @@ build-ARCOBALENO/py/emitnx86.o: ../../py/emitnx86.c ../../py/mpconfig.h \
  /usr/include/newlib/_ansi.h \
  /usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h \
  /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
- /usr/include/newlib/sys/lock.h ../../py/runtime0.h
+ /usr/include/newlib/sys/lock.h ../../py/nativeglue.h \
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdarg.h ../../py/obj.h \
+ ../../py/misc.h /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h \
+ ../../py/qstr.h build-ARCOBALENO/genhdr/qstrdefs.generated.h \
+ ../../py/mpprint.h ../../py/runtime0.h ../../py/persistentcode.h \
+ ../../py/reader.h ../../py/emitglue.h ../../py/bc.h ../../py/runtime.h \
+ ../../py/mpstate.h ../../py/mpthread.h ../../py/nlr.h \
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h \
+ /usr/include/newlib/assert.h ../../py/objlist.h ../../py/objexcept.h \
+ ../../py/objtuple.h ../../py/pystack.h ../../py/objfun.h \
+ ../../py/stream.h ../../py/mperrno.h
 ../../py/emitnx86.c ../../py/mpconfig.h :
  mpconfigport.h boards/ARCOBALENO/mpconfigboard.h mpconfigboard_common.h :
  ../../lib/stm32lib/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h :
@@ -125,4 +135,14 @@ build-ARCOBALENO/py/emitnx86.o: ../../py/emitnx86.c ../../py/mpconfig.h \
  /usr/include/newlib/_ansi.h :
  /usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h :
  /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h :
- /usr/include/newlib/sys/lock.h ../../py/runtime0.h :
+ /usr/include/newlib/sys/lock.h ../../py/nativeglue.h :
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdarg.h ../../py/obj.h :
+ ../../py/misc.h /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h :
+ ../../py/qstr.h build-ARCOBALENO/genhdr/qstrdefs.generated.h :
+ ../../py/mpprint.h ../../py/runtime0.h ../../py/persistentcode.h :
+ ../../py/reader.h ../../py/emitglue.h ../../py/bc.h ../../py/runtime.h :
+ ../../py/mpstate.h ../../py/mpthread.h ../../py/nlr.h :
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h :
+ /usr/include/newlib/assert.h ../../py/objlist.h ../../py/objexcept.h :
+ ../../py/objtuple.h ../../py/pystack.h ../../py/objfun.h :
+ ../../py/stream.h ../../py/mperrno.h :

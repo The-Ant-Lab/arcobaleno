@@ -70,7 +70,7 @@ build-ARCOBALENO/systick.o: systick.c ../../py/runtime.h \
  ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h \
  ../../py/objtuple.h ../../py/pystack.h ../../py/mphal.h mphalport.h \
  pin.h pin_defs_stm32.h build-ARCOBALENO/genhdr/pins.h irq.h irq.h \
- pendsv.h systick.h softtimer.h pybthread.h
+ pendsv.h systick.h softtimer.h ../../py/pairheap.h pybthread.h
 systick.c ../../py/runtime.h :
  ../../py/mpstate.h /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h :
  /usr/include/newlib/stdint.h :
@@ -143,4 +143,4 @@ systick.c ../../py/runtime.h :
  ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h :
  ../../py/objtuple.h ../../py/pystack.h ../../py/mphal.h mphalport.h :
  pin.h pin_defs_stm32.h build-ARCOBALENO/genhdr/pins.h irq.h irq.h :
- pendsv.h systick.h softtimer.h pybthread.h :
+ pendsv.h systick.h softtimer.h ../../py/pairheap.h pybthread.h :

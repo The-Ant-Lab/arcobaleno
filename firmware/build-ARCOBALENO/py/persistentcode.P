@@ -74,12 +74,14 @@ build-ARCOBALENO/py/persistentcode.o: ../../py/persistentcode.c \
  /usr/include/newlib/alloca.h ../../py/misc.h \
  /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h ../../py/qstr.h \
  build-ARCOBALENO/genhdr/qstrdefs.generated.h ../../py/mpprint.h \
- ../../py/runtime0.h ../../py/emitglue.h ../../py/bc.h ../../py/runtime.h \
- ../../py/mpstate.h ../../py/mpthread.h ../../py/nlr.h \
+ ../../py/runtime0.h ../../py/nativeglue.h ../../py/persistentcode.h \
+ ../../py/emitglue.h ../../py/bc.h ../../py/runtime.h ../../py/mpstate.h \
+ ../../py/mpthread.h ../../py/nlr.h \
  /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h \
  ../../py/objlist.h ../../py/objexcept.h ../../py/objtuple.h \
- ../../py/pystack.h ../../py/objfun.h ../../py/persistentcode.h \
- ../../py/bc0.h ../../py/smallint.h ../../py/parsenum.h ../../py/lexer.h
+ ../../py/pystack.h ../../py/objfun.h ../../py/stream.h \
+ ../../py/mperrno.h ../../py/bc0.h ../../py/objstr.h ../../py/smallint.h \
+ ../../py/parsenum.h ../../py/lexer.h
 ../../py/persistentcode.c :
  /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h :
  /usr/include/newlib/stdint.h :
@@ -156,9 +158,11 @@ build-ARCOBALENO/py/persistentcode.o: ../../py/persistentcode.c \
  /usr/include/newlib/alloca.h ../../py/misc.h :
  /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdbool.h ../../py/qstr.h :
  build-ARCOBALENO/genhdr/qstrdefs.generated.h ../../py/mpprint.h :
- ../../py/runtime0.h ../../py/emitglue.h ../../py/bc.h ../../py/runtime.h :
- ../../py/mpstate.h ../../py/mpthread.h ../../py/nlr.h :
+ ../../py/runtime0.h ../../py/nativeglue.h ../../py/persistentcode.h :
+ ../../py/emitglue.h ../../py/bc.h ../../py/runtime.h ../../py/mpstate.h :
+ ../../py/mpthread.h ../../py/nlr.h :
  /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h :
  ../../py/objlist.h ../../py/objexcept.h ../../py/objtuple.h :
- ../../py/pystack.h ../../py/objfun.h ../../py/persistentcode.h :
- ../../py/bc0.h ../../py/smallint.h ../../py/parsenum.h ../../py/lexer.h :
+ ../../py/pystack.h ../../py/objfun.h ../../py/stream.h :
+ ../../py/mperrno.h ../../py/bc0.h ../../py/objstr.h ../../py/smallint.h :
+ ../../py/parsenum.h ../../py/lexer.h :

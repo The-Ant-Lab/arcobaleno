@@ -15,6 +15,7 @@ const char mp_frozen_str_content[] = {
 #include "py/objint.h"
 #include "py/objstr.h"
 #include "py/emitglue.h"
+#include "py/nativeglue.h"
 
 #if MICROPY_OPT_CACHE_MAP_LOOKUP_IN_BYTECODE != 0
 #error "incompatible MICROPY_OPT_CACHE_MAP_LOOKUP_IN_BYTECODE"

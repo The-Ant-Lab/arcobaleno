@@ -1,11 +1,11 @@
 build-ARCOBALENO/py/nativeglue.o: ../../py/nativeglue.c \
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdarg.h \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
  /usr/include/newlib/sys/features.h /usr/include/newlib/sys/cdefs.h \
  /usr/include/newlib/machine/_default_types.h \
  /usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h \
- /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdarg.h \
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
  /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/types.h \
@@ -76,15 +76,17 @@ build-ARCOBALENO/py/nativeglue.o: ../../py/nativeglue.c \
  ../../py/qstr.h build-ARCOBALENO/genhdr/qstrdefs.generated.h \
  ../../py/mpprint.h ../../py/runtime0.h ../../py/objlist.h \
  ../../py/objexcept.h ../../py/objtuple.h ../../py/pystack.h \
- ../../py/smallint.h ../../py/emitglue.h ../../py/bc.h ../../py/objfun.h
+ ../../py/smallint.h ../../py/nativeglue.h ../../py/persistentcode.h \
+ ../../py/reader.h ../../py/emitglue.h ../../py/bc.h ../../py/objfun.h \
+ ../../py/stream.h ../../py/mperrno.h ../../py/gc.h
 ../../py/nativeglue.c :
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdarg.h :
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h :
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h :
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h :
  /usr/include/newlib/sys/features.h /usr/include/newlib/sys/cdefs.h :
  /usr/include/newlib/machine/_default_types.h :
  /usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h :
- /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdarg.h :
  /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h :
  /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h :
  /usr/include/newlib/sys/lock.h /usr/include/newlib/sys/types.h :
@@ -155,4 +157,6 @@ build-ARCOBALENO/py/nativeglue.o: ../../py/nativeglue.c \
  ../../py/qstr.h build-ARCOBALENO/genhdr/qstrdefs.generated.h :
  ../../py/mpprint.h ../../py/runtime0.h ../../py/objlist.h :
  ../../py/objexcept.h ../../py/objtuple.h ../../py/pystack.h :
- ../../py/smallint.h ../../py/emitglue.h ../../py/bc.h ../../py/objfun.h :
+ ../../py/smallint.h ../../py/nativeglue.h ../../py/persistentcode.h :
+ ../../py/reader.h ../../py/emitglue.h ../../py/bc.h ../../py/objfun.h :
+ ../../py/stream.h ../../py/mperrno.h ../../py/gc.h :

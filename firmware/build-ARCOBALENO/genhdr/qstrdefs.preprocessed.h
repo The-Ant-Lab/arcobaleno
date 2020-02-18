@@ -5442,7 +5442,7 @@ void HAL_DisableCompensationCell(void);
 void HAL_GetUID(uint32_t *UID);
 # 31 "./mpconfigboard_common.h" 2
 # 33 "./mpconfigport.h" 2
-# 198 "./mpconfigport.h"
+# 200 "./mpconfigport.h"
 extern const struct _mp_obj_module_t machine_module;
 extern const struct _mp_obj_module_t pyb_module;
 extern const struct _mp_obj_module_t stm_module;
@@ -5457,11 +5457,13 @@ extern const struct _mp_obj_module_t mp_module_utime;
 extern const struct _mp_obj_module_t mp_module_usocket;
 extern const struct _mp_obj_module_t mp_module_network;
 extern const struct _mp_obj_module_t mp_module_onewire;
-# 311 "./mpconfigport.h"
+# 314 "./mpconfigport.h"
 typedef int mp_int_t;
 typedef unsigned int mp_uint_t;
+
+
 typedef long mp_off_t;
-# 325 "./mpconfigport.h"
+# 330 "./mpconfigport.h"
 static inline void enable_irq(mp_uint_t state) {
     __set_PRIMASK(state);
 }
@@ -5471,7 +5473,7 @@ static inline mp_uint_t disable_irq(void) {
     __disable_irq();
     return state;
 }
-# 373 "./mpconfigport.h"
+# 382 "./mpconfigport.h"
 # 1 "/usr/include/newlib/alloca.h" 1 3
 # 10 "/usr/include/newlib/alloca.h" 3
 # 1 "/usr/include/newlib/_ansi.h" 1 3
@@ -5875,11 +5877,11 @@ extern struct _reent *const _global_impure_ptr ;
 
 void _reclaim_reent (struct _reent *);
 # 12 "/usr/include/newlib/alloca.h" 2 3
-# 373 "./mpconfigport.h" 2
+# 382 "./mpconfigport.h" 2
 # 63 "../../py/mpconfig.h" 2
-# 646 "../../py/mpconfig.h"
+# 677 "../../py/mpconfig.h"
 
-# 646 "../../py/mpconfig.h"
+# 677 "../../py/mpconfig.h"
 typedef float mp_float_t;
 # 28 "<stdin>" 2
 
@@ -5914,26 +5916,21 @@ Q(<genexpr>)
 Q(<string>)
 Q(<stdin>)
 Q(utf-8)
-# 92 "<stdin>"
-Q(boot.py)
-Q(main.py)
-
+# 93 "<stdin>"
 Q(/flash)
 Q(/flash/lib)
 Q(/sd)
 Q(/sd/lib)
 
-Q(MSC+HID)
-Q(VCP+MSC)
-Q(VCP+HID)
-Q(CDC+MSC)
-Q(CDC+HID)
+
 Q(/)
 
 
 
-Q(CDC)
-Q(flash)
+Q(MSC+HID)
+Q(VCP+MSC)
+Q(VCP+HID)
+
 Q(A0)
 Q(A1)
 Q(A10)
@@ -5964,12 +5961,12 @@ Q(AF4_I2C1)
 
 
 Q(AF4_I2C3)
-# 155 "<stdin>"
+# 151 "<stdin>"
 Q(AF5_SPI1)
 
 
 Q(AF5_SPI2)
-# 191 "<stdin>"
+# 187 "<stdin>"
 Q(AF7_USART1)
 
 
@@ -7497,6 +7494,8 @@ Q(__delattr__)
 
 Q(__delattr__)
 
+Q(__delattr__)
+
 Q(__delete__)
 
 Q(__delete__)
@@ -7697,6 +7696,8 @@ Q(__name__)
 
 Q(__name__)
 
+Q(__ne__)
+
 Q(__neg__)
 
 Q(__new__)
@@ -7742,6 +7743,8 @@ Q(__rshift__)
 Q(__set__)
 
 Q(__set__)
+
+Q(__setattr__)
 
 Q(__setattr__)
 
@@ -8520,6 +8523,8 @@ Q(index)
 Q(index)
 
 Q(index)
+
+Q(indices)
 
 Q(info)
 

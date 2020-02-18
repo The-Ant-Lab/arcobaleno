@@ -70,9 +70,11 @@ build-ARCOBALENO/extmod/modbluetooth.o: ../../extmod/modbluetooth.c \
  ../../py/mpthread.h ../../py/nlr.h \
  /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h \
  /usr/include/newlib/assert.h ../../py/objlist.h ../../py/objexcept.h \
- ../../py/objtuple.h ../../py/pystack.h ../../extmod/modbluetooth.h \
- ../../py/ringbuf.h /usr/include/newlib/string.h \
- /usr/include/newlib/sys/cdefs.h /usr/include/newlib/sys/string.h
+ ../../py/objtuple.h ../../py/pystack.h ../../py/mphal.h mphalport.h \
+ pin.h pin_defs_stm32.h build-ARCOBALENO/genhdr/pins.h irq.h \
+ ../../extmod/modbluetooth.h ../../py/ringbuf.h \
+ /usr/include/newlib/string.h /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/sys/string.h
 ../../extmod/modbluetooth.c :
  ../../py/binary.h ../../py/obj.h ../../py/mpconfig.h mpconfigport.h :
  boards/ARCOBALENO/mpconfigboard.h mpconfigboard_common.h :
@@ -145,6 +147,8 @@ build-ARCOBALENO/extmod/modbluetooth.o: ../../extmod/modbluetooth.c \
  ../../py/mpthread.h ../../py/nlr.h :
  /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h :
  /usr/include/newlib/assert.h ../../py/objlist.h ../../py/objexcept.h :
- ../../py/objtuple.h ../../py/pystack.h ../../extmod/modbluetooth.h :
- ../../py/ringbuf.h /usr/include/newlib/string.h :
- /usr/include/newlib/sys/cdefs.h /usr/include/newlib/sys/string.h :
+ ../../py/objtuple.h ../../py/pystack.h ../../py/mphal.h mphalport.h :
+ pin.h pin_defs_stm32.h build-ARCOBALENO/genhdr/pins.h irq.h :
+ ../../extmod/modbluetooth.h ../../py/ringbuf.h :
+ /usr/include/newlib/string.h /usr/include/newlib/sys/cdefs.h :
+ /usr/include/newlib/sys/string.h :

@@ -69,7 +69,8 @@ build-ARCOBALENO/machine_timer.o: machine_timer.c ../../py/runtime.h \
  build-ARCOBALENO/genhdr/qstrdefs.generated.h ../../py/mpprint.h \
  ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h \
  ../../py/objtuple.h ../../py/pystack.h ../../py/mphal.h mphalport.h \
- pin.h pin_defs_stm32.h build-ARCOBALENO/genhdr/pins.h irq.h softtimer.h
+ pin.h pin_defs_stm32.h build-ARCOBALENO/genhdr/pins.h irq.h softtimer.h \
+ ../../py/pairheap.h
 machine_timer.c ../../py/runtime.h :
  ../../py/mpstate.h /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h :
  /usr/include/newlib/stdint.h :
@@ -142,3 +143,4 @@ machine_timer.c ../../py/runtime.h :
  ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h :
  ../../py/objtuple.h ../../py/pystack.h ../../py/mphal.h mphalport.h :
  pin.h pin_defs_stm32.h build-ARCOBALENO/genhdr/pins.h irq.h softtimer.h :
+ ../../py/pairheap.h :

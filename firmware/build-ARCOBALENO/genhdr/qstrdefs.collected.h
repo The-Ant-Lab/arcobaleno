@@ -1206,6 +1206,8 @@ Q(__delattr__)
 
 Q(__delattr__)
 
+Q(__delattr__)
+
 Q(__delete__)
 
 Q(__delete__)
@@ -1406,6 +1408,8 @@ Q(__name__)
 
 Q(__name__)
 
+Q(__ne__)
+
 Q(__neg__)
 
 Q(__new__)
@@ -1451,6 +1455,8 @@ Q(__rshift__)
 Q(__set__)
 
 Q(__set__)
+
+Q(__setattr__)
 
 Q(__setattr__)
 
@@ -2229,6 +2235,8 @@ Q(index)
 Q(index)
 
 Q(index)
+
+Q(indices)
 
 Q(info)
 

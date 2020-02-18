@@ -87,9 +87,9 @@ build-ARCOBALENO/main.o: main.c /usr/include/newlib/stdio.h \
  /usr/include/newlib/inttypes.h ../../extmod/vfs.h ../../py/lexer.h \
  ../../py/reader.h ../../extmod/vfs_fat.h ../../extmod/vfs_lfs.h mpu.h \
  rfcore.h systick.h pendsv.h powerctrl.h pybthread.h gccollect.h \
- factoryreset.h modmachine.h softtimer.h i2c.h dma.h spi.h \
- ../../drivers/bus/spi.h uart.h timer.h led.h pin.h extint.h usrsw.h \
- usb.h usbdev/class/inc/usbd_cdc_msc_hid0.h rtc.h storage.h \
+ factoryreset.h modmachine.h softtimer.h ../../py/pairheap.h i2c.h dma.h \
+ spi.h ../../drivers/bus/spi.h uart.h timer.h led.h pin.h extint.h \
+ usrsw.h usb.h usbdev/class/inc/usbd_cdc_msc_hid0.h rtc.h storage.h \
  ../../drivers/memory/spiflash.h ../../drivers/bus/qspi.h sdcard.h \
  sdram.h rng.h accel.h servo.h dac.h can.h modnetwork.h
 main.c /usr/include/newlib/stdio.h :
@@ -181,8 +181,8 @@ main.c /usr/include/newlib/stdio.h :
  /usr/include/newlib/inttypes.h ../../extmod/vfs.h ../../py/lexer.h :
  ../../py/reader.h ../../extmod/vfs_fat.h ../../extmod/vfs_lfs.h mpu.h :
  rfcore.h systick.h pendsv.h powerctrl.h pybthread.h gccollect.h :
- factoryreset.h modmachine.h softtimer.h i2c.h dma.h spi.h :
- ../../drivers/bus/spi.h uart.h timer.h led.h pin.h extint.h usrsw.h :
- usb.h usbdev/class/inc/usbd_cdc_msc_hid0.h rtc.h storage.h :
+ factoryreset.h modmachine.h softtimer.h ../../py/pairheap.h i2c.h dma.h :
+ spi.h ../../drivers/bus/spi.h uart.h timer.h led.h pin.h extint.h :
+ usrsw.h usb.h usbdev/class/inc/usbd_cdc_msc_hid0.h rtc.h storage.h :
  ../../drivers/memory/spiflash.h ../../drivers/bus/qspi.h sdcard.h :
  sdram.h rng.h accel.h servo.h dac.h can.h modnetwork.h :

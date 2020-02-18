@@ -71,7 +71,10 @@ build-ARCOBALENO/build-ARCOBALENO/frozen_content.o: \
  ../../py/runtime.h ../../py/mpstate.h ../../py/mpthread.h ../../py/nlr.h \
  /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h \
  /usr/include/newlib/assert.h ../../py/objlist.h ../../py/objexcept.h \
- ../../py/objtuple.h ../../py/pystack.h ../../py/objfun.h
+ ../../py/objtuple.h ../../py/pystack.h ../../py/objfun.h \
+ ../../py/nativeglue.h /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdarg.h \
+ ../../py/persistentcode.h ../../py/reader.h ../../py/stream.h \
+ ../../py/mperrno.h
  build-ARCOBALENO/frozen_content.c :
  /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h :
  /usr/include/newlib/stdint.h :
@@ -145,3 +148,6 @@ build-ARCOBALENO/build-ARCOBALENO/frozen_content.o: \
  /usr/lib/gcc/arm-none-eabi/6.3.1/include-fixed/limits.h :
  /usr/include/newlib/assert.h ../../py/objlist.h ../../py/objexcept.h :
  ../../py/objtuple.h ../../py/pystack.h ../../py/objfun.h :
+ ../../py/nativeglue.h /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdarg.h :
+ ../../py/persistentcode.h ../../py/reader.h ../../py/stream.h :
+ ../../py/mperrno.h :
