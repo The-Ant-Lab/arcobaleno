@@ -1,0 +1,25 @@
+build-ARCOBALENO_PLUS/lib/stm32lib/CMSIS/STM32F4xx/Source/Templates/system_stm32f4xx.o: \
+ ../../lib/stm32lib/CMSIS/STM32F4xx/Source/Templates/system_stm32f4xx.c \
+ ../../lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f4xx.h \
+ ../../lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f413xx.h \
+ ../../lib/cmsis/inc/core_cm4.h \
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h \
+ /usr/include/newlib/stdint.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/features.h /usr/include/newlib/_newlib_version.h \
+ /usr/include/newlib/sys/_intsup.h /usr/include/newlib/sys/_stdint.h \
+ ../../lib/cmsis/inc/cmsis_version.h ../../lib/cmsis/inc/cmsis_compiler.h \
+ ../../lib/cmsis/inc/cmsis_gcc.h ../../lib/cmsis/inc/mpu_armv7.h \
+ ../../lib/stm32lib/CMSIS/STM32F4xx/Include/system_stm32f4xx.h
+ ../../lib/stm32lib/CMSIS/STM32F4xx/Source/Templates/system_stm32f4xx.c :
+ ../../lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f4xx.h :
+ ../../lib/stm32lib/CMSIS/STM32F4xx/Include/stm32f413xx.h :
+ ../../lib/cmsis/inc/core_cm4.h :
+ /usr/lib/gcc/arm-none-eabi/6.3.1/include/stdint.h :
+ /usr/include/newlib/stdint.h :
+ /usr/include/newlib/machine/_default_types.h :
+ /usr/include/newlib/sys/features.h /usr/include/newlib/_newlib_version.h :
+ /usr/include/newlib/sys/_intsup.h /usr/include/newlib/sys/_stdint.h :
+ ../../lib/cmsis/inc/cmsis_version.h ../../lib/cmsis/inc/cmsis_compiler.h :
+ ../../lib/cmsis/inc/cmsis_gcc.h ../../lib/cmsis/inc/mpu_armv7.h :
+ ../../lib/stm32lib/CMSIS/STM32F4xx/Include/system_stm32f4xx.h :
